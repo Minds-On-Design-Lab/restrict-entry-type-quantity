@@ -1,0 +1,40 @@
+{
+  "name": "mod-lab/craft-restrict-entry-type-quantity",
+  "description": "Restricts the amount of times you can use an entry type being applied to a page",
+  "type": "craft-plugin",
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.10.0"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "modlab\\craftrestrictentrytypequantity\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "restrict-entry-type-quantity",
+    "name": "Restrict Entry Type Quantity",
+    "developer": "mod-lab",
+    "documentationUrl": "",
+    "class": "modlab\\craftrestrictentrytypequantity\\RestrictEntryTypeQuantity"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
