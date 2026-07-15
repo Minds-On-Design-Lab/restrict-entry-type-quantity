@@ -1,6 +1,6 @@
 {
   "name": "mod-lab/craft-restrict-entry-type-quantity",
-  "description": "Restricts the amount of times you can use an entry type being applied to a page",
+  "description": "Limit how many entries of a given entry type can exist per site in Craft CMS",
   "type": "craft-plugin",
   "license": "MIT",
   "support": {
