@@ -1,5 +1,11 @@
 # Release Notes for Restrict Entry Type Quantity
 
+## [v1.0.1] - 2026-07-15
+
+### Changed
+
+- Lowered the required Craft CMS version from `^5.10.0` to `^5.0.0` — the plugin doesn't use anything newer than Craft 5's baseline
+
 ## [v1.0.0] - 2026-07-15
 
 ### Added
