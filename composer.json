@@ -2,6 +2,11 @@
   "name": "mod-lab/craft-restrict-entry-type-quantity",
   "description": "Restricts the amount of times you can use an entry type being applied to a page",
   "type": "craft-plugin",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/Minds-On-Design-Lab/restrict-entry-type-quantity/issues",
+    "source": "https://github.com/Minds-On-Design-Lab/restrict-entry-type-quantity"
+  },
   "require": {
     "php": ">=8.2",
     "craftcms/cms": "^5.10.0"
@@ -19,7 +24,8 @@
     "handle": "restrict-entry-type-quantity",
     "name": "Restrict Entry Type Quantity",
     "developer": "mod-lab",
-    "documentationUrl": "",
+    "documentationUrl": "https://github.com/Minds-On-Design-Lab/restrict-entry-type-quantity",
+    "changelogUrl": "https://raw.githubusercontent.com/Minds-On-Design-Lab/restrict-entry-type-quantity/main/CHANGELOG.md",
     "class": "modlab\\craftrestrictentrytypequantity\\RestrictEntryTypeQuantity"
   },
   "scripts": {
